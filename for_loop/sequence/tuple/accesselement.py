@@ -1,0 +1,5 @@
+t=(1,4,6,8,9,10)
+t=list(t)
+t.insert(4,20)
+t=tuple(t)
+print(t[4])

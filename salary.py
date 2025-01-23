@@ -1,0 +1,10 @@
+b=int(input("Enter basic salary:"))
+da=15*b//100
+hra=25*b//100
+pf=3*b//100
+netsalary=b+da+hra-pf
+print(f"Base Salary={b}")
+print(f"DA={da}")
+print(f"HRA={hra}")
+print(f"PF={pf}")
+print(f"Net Salary={netsalary}")
